@@ -10,7 +10,7 @@ export class AutoGrowDirective{
     }
 
      @HostListener('click') onClick(){
-        alert('I am called')
+       // alert('I am called')
          this.el.nativeElement.style.backgroundColor = 'yellow';
     }
 
